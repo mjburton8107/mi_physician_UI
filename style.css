@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 *{
   box-sizing: border-box;
 }
@@ -16,11 +18,26 @@ nav{
   height: 100px;
   width: 100%;
   background-color: #243A47;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
   padding-top: 10px;
   padding-left: 15px;
+  position: fixed;
+}
+
+.main-page-logo{
+  /*flex: 1;*/
+  float: left;
+}
+
+.nav-button{
+  float: right;
+  margin: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  line-height: 14px;
+  color: #F5F6F6;
 }
 
 .main-container{
